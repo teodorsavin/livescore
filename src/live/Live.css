@@ -1,0 +1,74 @@
+.matches-container {
+    margin-top: 40px;
+}
+
+.matches-container table {
+    width: 600px;
+    margin: 10px auto;
+    font-size: 10px;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.matches-container table > tbody > tr > td, .matches-container table.matches > thead > tr > th {
+    border-bottom: 1px solid grey;
+    padding: 5px 2px 5px 2px;
+}
+
+.matches-container table.matches > thead > tr > th {
+    text-align: right;
+}
+
+.matches-container table.matches-wrapper, .matches-container table.matches-wrapper > tbody > tr > td {
+    border-bottom: 0px;
+    padding: 0;
+}
+
+/* hour */
+.matches-container table > tbody > tr > td:nth-of-type(1) {
+    width: 20px;
+}
+
+/* first team name */
+.matches-container table > tbody > tr > td:nth-of-type(2) {
+    width: 220px;
+    text-align: left;
+}
+
+/* score */
+.matches-container table > tbody > tr > td:nth-of-type(3) {
+    width: 50px;
+    text-align: center;
+}
+
+/* away team name */
+.matches-container table > tbody > tr > td:nth-of-type(4) {
+    width: 220px;
+    text-align: right;
+}
+
+/* away team name */
+.matches-container table > tbody > tr > td:nth-of-type(5) {
+    width: 20px;
+}
+
+.matches-container table.matches > tbody > tr:nth-child(2n) > td {
+    background-color: #C8C8C8;
+}
+
+.matches-container table.matches > tbody > tr:nth-child(2n+1) > td {
+    background-color: #F0F0F0;
+}
+
+.vcenter {
+    height: 100vh;
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.loading {
+    min-height: 12em;
+    margin-left: auto;
+    margin-right: auto;
+}
